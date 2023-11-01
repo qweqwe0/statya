@@ -1,0 +1,129 @@
+@font-face {
+    font-family:h1_font ;
+    src: url(/fonts/ofont.ru_Copperplate.ttf);
+}
+
+@font-face {
+    font-family:text_font ;
+    src: url(/fonts/bb.ttf);
+}
+@font-face {
+    font-family: comments_font;
+    src: url(/fonts/comments.ttf);
+}
+@font-face {
+    font-family: nav_font;
+    src: url(/fonts/nav.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: h1_font ;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    font-size: 19px;
+    padding-left: 15px;
+    list-style-type: none;
+    font-family: nav_font;
+}
+.main2, .main3{
+    margin-top: 30px;
+    height: calc(100vh - 60px);
+}
+footer{
+    height: 60px;
+}
+.h1_1{
+    margin: 20px;
+}
+.body1{
+    background-image: -webkit-linear-gradient( bottom,#667f87,#ccd8dd );
+}
+.body3{
+    background-image: url('/f2.png'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+.body2{
+    background-image: url(/b22.jpeg);
+    background-size: contain;
+}
+.main2{
+    color: aliceblue;
+}
+.text_2{
+    
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.h3_Comments{
+    margin-top: 9px;
+}
+.comments{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ 
+}
+.comm{
+    font-family: comments_font;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.div3-inner{
+    background-color: rgba(198, 231, 239, 0.924);
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    height: 700px;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    border: 4px solid black;
+    
+    
+}
+.img_stone_3{
+    margin-top: 20px;
+}
+.div-cite{
+    background-color: rgba(118, 192, 192, 0.291);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 4px solid black;
+}
+.cite3{
+    margin: 10px;
+}
+.h1_3{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+p{
+    font-family: text_font;
+    font-size: 20px;
+}
+
+
+@media (max-width: 415px){
+    header{
+        font-size: 100px;
+        background-color: rgb(25, 51, 51);
+    }
+}
